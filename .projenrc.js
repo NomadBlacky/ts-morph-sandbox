@@ -2,7 +2,7 @@ const { TypeScriptProject } = require('projen');
 
 const project = new TypeScriptProject({
   defaultReleaseBranch: 'main',
-  jsiiFqn: "projen.TypeScriptProject",
+  jsiiFqn: 'projen.TypeScriptProject',
   name: 'ts-morph-sandbox',
 
   /* NodePackageOptions */
@@ -16,7 +16,7 @@ const project = new TypeScriptProject({
   // bundledDeps: undefined,                                                   /* List of dependencies to bundle into this module. */
   // deps: [],                                                                 /* Runtime dependencies of this module. */
   // description: undefined,                                                   /* The description is just a string that helps people understand the purpose of the package. */
-  // devDeps: [],                                                              /* Build dependencies for this module. */
+  devDeps: ['ts-morph', 'ts-node'],
   // entrypoint: 'lib/index.js',                                               /* Module entrypoint (`main` in `package.json`). */
   // homepage: undefined,                                                      /* Package's Homepage / Website. */
   // keywords: undefined,                                                      /* Keywords to include in `package.json`. */

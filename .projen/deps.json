@@ -61,6 +61,14 @@
       "type": "build"
     },
     {
+      "name": "ts-morph",
+      "type": "build"
+    },
+    {
+      "name": "ts-node",
+      "type": "build"
+    },
+    {
       "name": "typescript",
       "type": "build"
     }
